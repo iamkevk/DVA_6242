@@ -33,7 +33,11 @@ Numerous studies have focused on enhancing the accuracy of anomaly detection thr
 
 - **Experiments and Evaluation**: To prevent overfitting in our regression model, we assessed its performance using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the coefficient of determination (R²) on both training and testing datasets.
 
+## Conclusion
 
+- Our approach utilized LightGBM, a robust machine learning algorithm, incorporating lagged values of meter readings to refine our model’s predictive accuracy.
+- We successfully integrated a novel rule-based method to identify frozen sensor readings, a common yet overlooked issue in building energy management.
+- Our visualizations were uniquely designed to cater to different end-users, primarily focusing on building managers. This approach addressed the gap in existing literature, which predominantly targets residential users
 
 
 ## References
