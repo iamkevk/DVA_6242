@@ -28,9 +28,12 @@ Numerous studies have focused on enhancing the accuracy of anomaly detection thr
   - Energy consumption history and count of anomalous readings, including two types of anomalies (static meter reading, high prediction error) for groups of and individual buildings and sites through the use of filters.
   - Ranking of buildings per site based on energy consumption and count of anomalous readings to help building managers identify buildings of interest and compare the performance of buildings/sites.
   - Weather data at each site to visualize the relationship of average temperature to energy consumption.
+    
     ![Figure 2: Dashboard for energy consumption and anomaly detection visualization for educational buildings](https://github.com/iamkevk/DVA_6242/assets/66114561/2cf684ac-2511-4da6-a4e2-cfab15601efb)*Figure 2: Dashboard for energy consumption and anomaly detection visualization for educational buildings*
 
 - **Experiments and Evaluation**: To prevent overfitting in our regression model, we assessed its performance using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the coefficient of determination (R²) on both training and testing datasets.
+
+
 
 
 ## References
