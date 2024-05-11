@@ -7,3 +7,8 @@ This exploratory project overview is a class group project for `Team 086` in Geo
 > - Learn **practical** know-how (useful for jobs, and research) through significant hands-on programming assignments.
 
 
+## Project Motivation
+
+Worldwide, buildings are responsible for approximately 30% of energy consumption and about 26% of energy-related emissions. With the expansion of global floor space and heightened regulatory focus on energy efficiency, the significance of reducing energy consumption cannot be overstated. Lowering energy use is crucial not only for mitigating climate change on a broad scale but also for reducing energy costs at the individual level.
+
+Numerous studies have focused on enhancing the accuracy of anomaly detection through the development of machine learning algorithms. Nevertheless, a significant obstacle to scaling building energy efficiency is the challenge of ensuring that key stakeholders fully understand building operational patterns and potential improvement opportunities. This challenge often stems from the end-users' limited time and technical expertise. To address this issue, our goal was to bridge the gap by making machine learning insights more accessible to end-users through interactive visualizations.
