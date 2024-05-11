@@ -20,8 +20,13 @@ Numerous studies have focused on enhancing the accuracy of anomaly detection thr
 
 ![Figure 1: Updated methodology overview](https://github.com/iamkevk/DVA_6242/assets/66114561/1be6d786-7e1f-43f3-a429-5d5500ee906e)*Figure 1: Updated methodology overview*
 
-- Data source: The Building Data Genome Project 2 dataset [^2], ***is an open data set of 3,053 energy meters from 1,636 non-residential buildings with a range of two full years (2016 and 2017) at an hourly frequency (17,544 measurements per meter resulting in approximately 53.6 million measurements)***. 
-- 
+- **Data source**: The Building Data Genome Project 2 dataset [^2], ***is an open data set of 3,053 energy meters from 1,636 non-residential buildings with a range of two full years (2016 and 2017) at an hourly frequency (17,544 measurements per meter resulting in approximately 53.6 million measurements)***. 
+- **Data Pre-processing**: Handled missing values, feature engineering, Categorical encoding, and training-test split.
+- **Model Development**: Model Training with LightGBM on the pre-processed & feature-engineered dataset. Parameters for the LightGBM model are defined with the objective set to “huber” with alpha = 0.3 to tone down the influence of outliers, tree max depth & regularization factors are also set to avoid overfitting after several hundred epochs.
+- **Anomaly Detection**: A threshold for anomalies is calculated from the error distribution in the training data. Anomalies are flagged in the data based on this threshold.  A rule-based method is implemented to detect frozen sensor readings.
+- **Interactive Visualization**: Key components of visualization include:
+- - Energy consumption history and count of anomalous readings, including two types of anomalies (static meter reading, high prediction error) for groups of and individual buildings and sites through use of filters.
+  - 
 
 
 ## References
