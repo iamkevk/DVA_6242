@@ -20,7 +20,7 @@ Numerous studies have focused on enhancing the accuracy of anomaly detection thr
 
 ![Figure 1: Updated methodology overview](https://github.com/iamkevk/DVA_6242/assets/66114561/1be6d786-7e1f-43f3-a429-5d5500ee906e)*Figure 1: Updated methodology overview*
 
-- Data source: The Building Data Genome Project 2 dataset [^2], >an open data set of 3,053 energy meters from 1,636 non-residential buildings with a range of two full years (2016 and 2017) at an hourly frequency (17,544 measurements per meter resulting in approximately 53.6 million measurements). 
+- Data source: The Building Data Genome Project 2 dataset [^2], > an open data set of 3,053 energy meters from 1,636 non-residential buildings with a range of two full years (2016 and 2017) at an hourly frequency (17,544 measurements per meter resulting in approximately 53.6 million measurements). 
 - 
 
 
